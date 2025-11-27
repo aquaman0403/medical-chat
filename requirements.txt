@@ -1,0 +1,29 @@
+﻿# 1. Backend API Framework
+flask
+flask-cors
+python-dotenv
+
+# 2. RAG & AI Core (LangChain & LangGraph)
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-groq
+langchain-huggingface
+langgraph
+langchain-google-genai
+
+# 3. Vector Database & Embeddings
+chromadb
+langchain-chroma
+sentence-transformers
+pypdf
+
+# 4. Database (Chat History)
+supabase
+python-dotenv
+psycopg2
+
+# 5. External Tools (Optional - nếu dùng Agent search)
+wikipedia
+duckduckgo-search
