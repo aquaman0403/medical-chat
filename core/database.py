@@ -1,6 +1,7 @@
 import os
 import psycopg2
 from psycopg2.extras import RealDictCursor
+import uuid
 
 
 class SupabaseDB:
@@ -19,6 +20,7 @@ class SupabaseDB:
         Maps 'role' -> 'sender' ('user' or 'bot')
         """
         sender = 'user' if role == 'user' else 'bot'
+        message_id = str(uuid.uuid4())
 
         conn = None
         try:
@@ -26,11 +28,10 @@ class SupabaseDB:
             cur = conn.cursor()
 
             # Insert message
-            # Note: 'id' is uuid default gen, 'created_at' is default now()
             cur.execute("""
-                        INSERT INTO messages (conversation_id, content, sender, "updated_at")
-                        VALUES (%s, %s, %s, NOW())
-                        """, (session_id, content, sender))
+                        INSERT INTO messages (id, conversation_id, content, sender, "updated_at")
+                        VALUES (%s, %s, %s, %s, NOW())
+                        """, (message_id, session_id, content, sender))
 
             conn.commit()
             cur.close()
