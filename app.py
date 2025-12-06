@@ -7,6 +7,9 @@ from core.database import SupabaseDB
 from core.langgraph_workflow import create_workflow
 from core.state import initialize_conversation_state
 from core.state import reset_query_state
+from core.response import (
+    success_response, validation_error, internal_error, bad_request
+)
 from tools.data_loader import process_data
 from tools.vector_store import get_or_create_vectorstore
 
@@ -56,14 +59,17 @@ def initialize_system():
 
 @app.route('/', methods=['GET'])
 def health_check():
-    return jsonify({
-        "status": "online",
-        "service": "MEDICAL CHAT API",
-        "version": "1.0.0"
-    })
+    return success_response(
+        message="Service is running",
+        data={
+            "status": "online",
+            "service": "MEDICAL CHAT API",
+            "version": "1.0.0"
+        }
+    )
 
 
-@app.route('/api/chat', methods=['POST'])
+@app.route('/api/v1/chat', methods=['POST'])
 def chat():
     global workflow_app, conversation_states, db
 
@@ -72,13 +78,13 @@ def chat():
     session_id = data.get('conversation_id') or data.get('session_id')
 
     if not message:
-        return jsonify({'error': 'No message provided'}), 400
+        return validation_error(message='No message provided')
 
     if not session_id:
-        return jsonify({'error': 'No conversation_id provided'}), 400
+        return validation_error(message='No conversation_id provided')
 
     if not workflow_app:
-        return jsonify({'error': 'System not initialized'}), 500
+        return internal_error(message='System not initialized')
 
     # Save user message to database
     if db:
@@ -86,13 +92,14 @@ def chat():
 
     # Initialize or get conversation state
     if session_id not in conversation_states:
-        # Try to load history from DB for context
-        history = []
-        if db:
-            history = db.get_chat_history(session_id)
-
         conversation_states[session_id] = initialize_conversation_state()
-        # You might want to populate state["messages"] with history here if your agent supports it
+    
+    # Load last 10 messages (5 user + 5 assistant) from DB for context
+    if db:
+        history = db.get_chat_history(session_id)
+        # Get last 10 messages for context (5 Q&A pairs)
+        recent_history = history[-10:] if len(history) >= 10 else history
+        conversation_states[session_id]["conversation_history"] = recent_history
 
     conversation_state = conversation_states[session_id]
     conversation_state = reset_query_state(conversation_state)
@@ -103,8 +110,8 @@ def chat():
         result = workflow_app.invoke(conversation_state)
         conversation_states[session_id].update(result)
 
-        # Get current timestamp
-        timestamp = datetime.now().strftime("%I:%M %p")
+        # Get current UTC timestamp in ISO 8601 format
+        timestamp = datetime.utcnow().isoformat() + 'Z'
 
         # Extract response and source
         response = result.get('generation', 'Unable to generate response.')
@@ -114,15 +121,17 @@ def chat():
         if db:
             db.save_message(session_id, 'assistant', response)
 
-        return jsonify({
-            'response': response,
-            'source': source,  # Returning source to frontend even if not saved to DB
-            'timestamp': timestamp,
-            'success': bool(result.get('generation'))
-        })
+        return success_response(
+            message="Chat response generated successfully",
+            data={
+                'response': response,
+                'source': source,
+                'timestamp': timestamp
+            }
+        )
     except Exception as e:
         print(f"Error processing chat: {e}")
-        return jsonify({'error': str(e)}), 500
+        return internal_error(message=str(e))
 
 
 @app.route('/api/history', methods=['GET'])
@@ -131,13 +140,19 @@ def get_history():
     session_id = request.args.get('conversation_id') or request.args.get('session_id')
 
     if not session_id:
-        return jsonify({'error': 'No conversation_id provided'}), 400
+        return validation_error(message='No conversation_id provided')
 
     if db:
         messages = db.get_chat_history(session_id)
-        return jsonify({'messages': messages})
+        return success_response(
+            message="Chat history retrieved successfully",
+            data={'messages': messages}
+        )
 
-    return jsonify({'messages': []})
+    return success_response(
+        message="No database connection",
+        data={'messages': []}
+    )
 
 
 if __name__ == '__main__':

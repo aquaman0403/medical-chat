@@ -20,15 +20,21 @@ def route_after_planner(state: AgentState):
 def route_after_llm(state: AgentState):
     if state.get("llm_success", False):
         return "executor"
-    else:
+    # Chỉ đi tới retriever nếu chưa thử RAG
+    elif not state.get("rag_attempted", False):
         return "retriever"
+    else:
+        return "executor"  # Fallback to executor
 
 
 def route_after_rag(state: AgentState):
     if state.get("rag_success", False):
         return "executor"
+    # Chỉ thử LLM nếu chưa thử
+    elif not state.get("llm_attempted", False):
+        return "llm_agent"
     else:
-        return "llm_agent"  # Try LLM if RAG fails
+        return "executor"  # Fallback to executor
 
 
 def route_after_llm_fallback(state: AgentState):

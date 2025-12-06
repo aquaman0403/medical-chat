@@ -18,6 +18,7 @@ class SupabaseDB:
         Save a message to the database.
         Maps 'session_id' -> 'conversation_id'
         Maps 'role' -> 'sender' ('user' or 'bot')
+        Timestamps are stored in UTC timezone
         """
         sender = 'user' if role == 'user' else 'bot'
         message_id = str(uuid.uuid4())
@@ -27,10 +28,11 @@ class SupabaseDB:
             conn = self._get_connection()
             cur = conn.cursor()
 
-            # Insert message
+            # Insert message with UTC timestamp
+            # NOW() AT TIME ZONE 'UTC' ensures UTC timestamp regardless of server timezone
             cur.execute("""
-                        INSERT INTO messages (id, conversation_id, content, sender, "updated_at")
-                        VALUES (%s, %s, %s, %s, NOW())
+                        INSERT INTO messages (id, conversation_id, content, sender, created_at, updated_at)
+                        VALUES (%s, %s, %s, %s, NOW() AT TIME ZONE 'UTC', NOW() AT TIME ZONE 'UTC')
                         """, (message_id, session_id, content, sender))
 
             conn.commit()
