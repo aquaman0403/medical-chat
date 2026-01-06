@@ -7,8 +7,6 @@ from agents.retriever_agent import RetrieverAgent
 from agents.wikipedia_agent import WikipediaAgent
 from agents.tavily_agent import TavilyAgent
 from agents.executor_agent import ExecutorAgent
-from agents.explanation_agent import ExplanationAgent
-
 
 def route_after_planner(state: AgentState):
     if state["current_tool"] == "retriever":
@@ -23,8 +21,9 @@ def route_after_llm(state: AgentState):
     # Chỉ đi tới retriever nếu chưa thử RAG
     elif not state.get("rag_attempted", False):
         return "retriever"
+    # Nếu cả RAG và LLM đều thất bại, thử Wikipedia
     else:
-        return "executor"  # Fallback to executor
+        return "wikipedia"
 
 
 def route_after_rag(state: AgentState):
@@ -33,8 +32,9 @@ def route_after_rag(state: AgentState):
     # Chỉ thử LLM nếu chưa thử
     elif not state.get("llm_attempted", False):
         return "llm_agent"
+    # Nếu cả RAG và LLM đều thất bại, thử Wikipedia
     else:
-        return "executor"  # Fallback to executor
+        return "wikipedia"
 
 
 def route_after_llm_fallback(state: AgentState):
@@ -66,7 +66,6 @@ def create_workflow():
     workflow.add_node("wikipedia", WikipediaAgent)
     workflow.add_node("tavily", TavilyAgent)
     workflow.add_node("executor", ExecutorAgent)
-    workflow.add_node("explanation", ExplanationAgent)
 
     # Set an entry point
     workflow.set_entry_point("memory")
@@ -90,7 +89,8 @@ def create_workflow():
         route_after_llm,
         {
             "executor": "executor",
-            "retriever": "retriever"
+            "retriever": "retriever",
+            "wikipedia": "wikipedia"
         }
     )
 
@@ -100,7 +100,8 @@ def create_workflow():
         route_after_rag,
         {
             "executor": "executor",
-            "llm_agent": "llm_agent"
+            "llm_agent": "llm_agent",
+            "wikipedia": "wikipedia"
         }
     )
 

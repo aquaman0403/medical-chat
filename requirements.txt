@@ -18,6 +18,7 @@ chromadb
 langchain-chroma
 sentence-transformers
 pypdf
+unidecode
 
 # 4. Database (Chat History)
 supabase

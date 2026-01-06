@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+
 from core.langgraph_workflow import create_workflow
 from core.state import initialize_conversation_state, reset_query_state
 from tools.data_loader import process_data
@@ -8,82 +9,83 @@ load_dotenv()
 
 
 def initialize_system():
-    """Initialize the system and create a vector database if needed"""
-    pdf_path = './data/medical_book.pdf'
-    json_path = './data/medical-data.json'
-    persist_dir = './medical_db/'
+    """
+    Khởi tạo hệ thống và vector database (nếu chưa tồn tại).
+    """
+    pdf_path = "./data/medical_book.pdf"
+    json_path = "./data/medical-data.json"
+    persist_dir = "./medical_db/"
 
     print("\n" + "=" * 60)
     print("Initializing Medical AI System...")
     print("=" * 60)
 
-    # Try to load an existing database first
+    # Thử load vector database đã tồn tại
     existing_db = get_or_create_vectorstore(persist_dir=persist_dir)
 
     if not existing_db:
-        print("Processing data sources and creating vector database...")
+        print("Đang xử lý dữ liệu và tạo vector database...")
         doc_splits = process_data(pdf_path=pdf_path, json_path=json_path)
 
         if doc_splits:
-            vectorstore = get_or_create_vectorstore(documents=doc_splits, persist_dir=persist_dir)
+            vectorstore = get_or_create_vectorstore(
+                documents=doc_splits,
+                persist_dir=persist_dir
+            )
             if vectorstore:
-                print("Vector database created successfully!")
+                print("Tạo vector database thành công")
             else:
-                print("Failed to create vector database")
+                print("Không thể tạo vector database")
         else:
-            print("No documents found to create database")
-            print("System will work with limited functionality (no RAG)")
+            print("Không có dữ liệu để tạo vector database")
+            print("Hệ thống sẽ chạy với chức năng hạn chế (không dùng RAG)")
 
 
 def main():
-    # Initialize system
+    # Khởi tạo hệ thống
     initialize_system()
 
-    # Create workflow
     print("\nCreating workflow...")
     app = create_workflow()
 
-    # Initialize conversation state
     conversation_state = initialize_conversation_state()
 
     print("\n" + "=" * 60)
     print("Medical AI Assistant Ready!")
     print("=" * 60)
-    print("Commands: 'exit' to quit, 'clear' to reset conversation")
-    print("Ask any medical question for professional guidance!\n")
+    print("Lệnh: 'exit' để thoát, 'clear' để xoá hội thoại")
+    print("Hãy đặt câu hỏi về y tế, sức khỏe\n")
 
     while True:
         query = input("Your question: ").strip()
 
         if query.lower() == "exit":
-            print("\nThank you for using Medical AI Assistant. Stay healthy!")
+            print("\nCảm ơn bạn đã sử dụng Medical AI Assistant. Chúc bạn nhiều sức khỏe!")
             break
 
         if query.lower() == "clear":
             conversation_state = initialize_conversation_state()
-            print("\nConversation cleared. Starting fresh!\n")
+            print("\nĐã xoá hội thoại. Bắt đầu lại!\n")
             continue
 
         if not query:
-            print("Please enter a question.\n")
+            print("Vui lòng nhập câu hỏi.\n")
             continue
 
-        # Reset state for a new query but keep conversation history
+        # Reset trạng thái cho câu hỏi mới nhưng giữ lịch sử hội thoại
         conversation_state = reset_query_state(conversation_state)
         conversation_state["question"] = query
 
-        print("\nProcessing your question...")
+        print("\nĐang xử lý câu hỏi...")
 
-        # Process the query
         result = app.invoke(conversation_state)
         conversation_state.update(result)
 
-        # Display the response with a source
         if result.get("generation"):
             print(f"\nResponse: {result['generation']}")
             print(f"Source: {result.get('source', 'Unknown')}")
         else:
-            print("\nUnable to generate response. Please try rephrasing.")
+            print("\nKhông thể tạo câu trả lời. Vui lòng thử lại.")
 
         print("\n" + "-" * 60 + "\n")
 
