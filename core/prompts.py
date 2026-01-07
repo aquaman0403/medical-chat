@@ -1,7 +1,4 @@
-"""
-System prompt cho MedicalBot
-"""
-
+# System prompt cho Chatbot
 MEDICAL_SYSTEM_PROMPT = """Bạn là MedicalBot – chatbot cung cấp thông tin về y tế và sức khỏe.
 
 Bạn PHẢI tuân thủ nghiêm các quy tắc sau:
@@ -42,9 +39,6 @@ Bạn PHẢI tuân thủ nghiêm các quy tắc sau:
 
 
 def get_llm_prompt(history_context: str, question: str) -> str:
-    """
-    Tạo prompt cho LLMAgent khi không có dữ liệu RAG.
-    """
     return f"""{MEDICAL_SYSTEM_PROMPT}
 
 ---
@@ -59,9 +53,6 @@ Hãy trả lời theo đúng các quy tắc trên."""
 
 
 def get_rag_prompt(history_context: str, question: str, medical_content: str) -> str:
-    """
-    Tạo prompt cho ExecutorAgent khi có dữ liệu RAG.
-    """
     return f"""{MEDICAL_SYSTEM_PROMPT}
 
 ---

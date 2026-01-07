@@ -8,47 +8,37 @@ from agents.wikipedia_agent import WikipediaAgent
 from agents.tavily_agent import TavilyAgent
 from agents.executor_agent import ExecutorAgent
 
+
 def route_after_planner(state: AgentState):
     if state["current_tool"] == "retriever":
         return "retriever"
-    else:
-        return "llm_agent"
+    return "llm_agent"
 
 
 def route_after_llm(state: AgentState):
     if state.get("llm_success", False):
         return "executor"
-    # Chỉ đi tới retriever nếu chưa thử RAG
-    elif not state.get("rag_attempted", False):
+    # Chỉ chuyển sang retriever nếu chưa thử RAG
+    if not state.get("rag_attempted", False):
         return "retriever"
-    # Nếu cả RAG và LLM đều thất bại, thử Wikipedia
-    else:
-        return "wikipedia"
+    # Nếu LLM và RAG đều thất bại, thử Wikipedia
+    return "wikipedia"
 
 
 def route_after_rag(state: AgentState):
     if state.get("rag_success", False):
         return "executor"
-    # Chỉ thử LLM nếu chưa thử
-    elif not state.get("llm_attempted", False):
+    # Chỉ thử LLM nếu chưa thử trước đó
+    if not state.get("llm_attempted", False):
         return "llm_agent"
-    # Nếu cả RAG và LLM đều thất bại, thử Wikipedia
-    else:
-        return "wikipedia"
-
-
-def route_after_llm_fallback(state: AgentState):
-    if state.get("llm_success", False):
-        return "executor"
-    else:
-        return "wikipedia"
+    # Nếu RAG và LLM đều thất bại, thử Wikipedia
+    return "wikipedia"
 
 
 def route_after_wiki(state: AgentState):
     if state.get("wiki_success", False):
         return "executor"
-    else:
-        return "tavily"
+    return "tavily"
 
 
 def route_after_tavily(state: AgentState):
@@ -58,7 +48,7 @@ def route_after_tavily(state: AgentState):
 def create_workflow():
     workflow = StateGraph(AgentState)
 
-    # Add nodes
+    # Khai báo các node trong workflow
     workflow.add_node("memory", MemoryAgent)
     workflow.add_node("planner", PlannerAgent)
     workflow.add_node("llm_agent", LLMAgent)
@@ -67,13 +57,11 @@ def create_workflow():
     workflow.add_node("tavily", TavilyAgent)
     workflow.add_node("executor", ExecutorAgent)
 
-    # Set an entry point
     workflow.set_entry_point("memory")
 
-    # Add edges
     workflow.add_edge("memory", "planner")
 
-    # Conditional edges with improved fallback logic
+    # Điều hướng sau planner
     workflow.add_conditional_edges(
         "planner",
         route_after_planner,
@@ -83,7 +71,7 @@ def create_workflow():
         }
     )
 
-    # If initial LLM attempt
+    # Điều hướng sau LLM
     workflow.add_conditional_edges(
         "llm_agent",
         route_after_llm,
@@ -94,7 +82,7 @@ def create_workflow():
         }
     )
 
-    # If retriever fails, try LLM
+    # Điều hướng sau retriever (RAG)
     workflow.add_conditional_edges(
         "retriever",
         route_after_rag,
@@ -105,7 +93,7 @@ def create_workflow():
         }
     )
 
-    # After Wiki
+    # Điều hướng sau Wikipedia
     workflow.add_conditional_edges(
         "wikipedia",
         route_after_wiki,
@@ -115,7 +103,7 @@ def create_workflow():
         }
     )
 
-    # After Tavily
+    # Điều hướng sau Tavily
     workflow.add_conditional_edges(
         "tavily",
         route_after_tavily,

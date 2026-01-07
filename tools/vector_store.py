@@ -9,7 +9,7 @@ _vectorstore = None
 
 def get_embeddings():
     """
-    Khởi tạo và trả về embedding model (chỉ load một lần).
+    Khởi tạo và trả về embedding model.
     """
     global _embeddings
 

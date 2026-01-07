@@ -1,0 +1,261 @@
+{
+  "evaluation_date": "2026-01-07T20:06:05.678861",
+  "evaluation_method": "Ground Truth Keywords Matching",
+  "total_questions": 15,
+  "metrics": {
+    "success_rate": 100.0,
+    "avg_accuracy": 90.6,
+    "avg_response_time": 10.94,
+    "avg_word_count": 621.0,
+    "disclaimer_rate": 100.0,
+    "completeness_rate": 100.0,
+    "source_attribution": 100.0,
+    "quality_score": 96.3
+  },
+  "results": [
+    {
+      "question": "Các triệu chứng thường gặp của bệnh cúm là gì?",
+      "ground_truth_keywords": [
+        "sốt",
+        "ho",
+        "mệt mỏi",
+        "đau người",
+        "đau đầu",
+        "đau họng",
+        "cúm"
+      ],
+      "response": "Chào bạn,\n\nTheo thông tin tham khảo, bệnh cúm ban đầu có thể có các triệu chứng giống như cảm lạnh thông thường với sổ mũi, hắt hơi và đau họng. Tuy nhiên, cảm lạnh thường phát triển chậm, trong khi cúm có xu hướng xuất hiện đột ngột.\n\nCác triệu chứng điển hình của bệnh cúm bao gồm:\n*   Sốt trên 38 độ C\n*   Đau cơ bắp\n*   Ớn lạnh\n*   Đau đầu\n*   Ho khan\n*   Mệt mỏi\n*   Nghẹt mũi\n*   Viêm họng\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 85.7,
+      "response_time": 5.76,
+      "success": true
+    },
+    {
+      "question": "Làm thế nào để giảm huyết áp một cách tự nhiên?",
+      "ground_truth_keywords": [
+        "tập thể dục",
+        "chế độ ăn",
+        "muối",
+        "cân nặng",
+        "căng thẳng",
+        "giấc ngủ",
+        "huyết áp"
+      ],
+      "response": "Chào bạn,\n\nĐể giảm huyết áp một cách tự nhiên, bạn có thể tham khảo một số biện pháp sau đây:\n\n*   **Chế độ ăn uống lành mạnh:**\n    *   **Giảm lượng muối:** Hạn chế thực phẩm chế biến sẵn, đồ ăn đóng hộp và không thêm quá nhiều muối vào thức ăn.\n    *   **Tăng cường rau củ quả và ngũ cốc nguyên hạt:** Chế độ ăn giàu kali, magie và chất xơ có thể giúp kiểm soát huyết áp.\n    *   **Hạn chế chất béo bão hòa và cholesterol:** Chọn các nguồn protein nạc và chất béo không bão hòa đơn/đa.\n    *   **Chế độ ăn DASH (Dietary Approaches to Stop Hypertension):** Đây là một chế độ ăn được khuyến nghị đặc biệt để giảm huyết áp.\n*   **Tập thể dục đều đặn:**\n    *   Mục tiêu ít nhất 150 phút hoạt động thể chất cường độ vừa phải mỗi tuần (ví dụ: đi bộ nhanh, bơi lội, đạp xe).\n    *   Tập thể dục giúp tim khỏe hơn và bơm máu hiệu quả hơn, làm giảm áp lực lên động mạch.\n*   **Duy trì cân nặng hợp lý:**\n    *   Thừa cân hoặc béo phì có thể làm tăng huyết áp. Giảm cân, dù chỉ một lượng nhỏ, cũng có thể tạo ra sự khác biệt đáng kể.\n*   **Hạn chế rượu bia:**\n    *   Uống quá nhiều rượu có thể làm tăng huyết áp.\n*   **Bỏ thuốc lá:**\n    *   Hút thuốc lá làm tổn thương thành mạch máu và làm tăng huyết áp.\n*   **Giảm căng thẳng:**\n    *   Căng thẳng mãn tính có thể góp phần làm tăng huyết áp. Hãy thử các kỹ thuật thư giãn như thiền, yoga, hít thở sâu hoặc dành thời gian cho sở thích cá nhân.\n*   **Ngủ đủ giấc:**\n    *   Thiếu ngủ có thể ảnh hưởng tiêu cực đến huyết áp.\n\nĐiều quan trọng là bạn nên tham khảo ý kiến bác sĩ để được tư vấn cụ thể về tình trạng sức khỏe của mình và có kế hoạch điều trị phù hợp, đặc biệt nếu huyết áp của bạn đã cao.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "AI Medical Knowledge",
+      "accuracy": 85.7,
+      "response_time": 5.7,
+      "success": true
+    },
+    {
+      "question": "Những nguyên nhân nào gây ra đau đầu?",
+      "ground_truth_keywords": [
+        "căng thẳng",
+        "mất nước",
+        "đau nửa đầu",
+        "thiếu ngủ",
+        "đau đầu"
+      ],
+      "response": "Chào bạn,\n\nThông tin tham khảo được cung cấp không trực tiếp đề cập đến các nguyên nhân gây đau đầu nói chung, mà tập trung vào bệnh tăng huyết áp nguyên phát. Do đó, tôi sẽ cung cấp thông tin dựa trên kiến thức y khoa phổ thông về các nguyên nhân gây đau đầu.\n\nĐau đầu là một triệu chứng rất phổ biến và có thể do nhiều nguyên nhân khác nhau gây ra. Chúng thường được chia thành hai loại chính: đau đầu nguyên phát và đau đầu thứ phát.\n\n**1. Đau đầu nguyên phát:**\nĐây là loại đau đầu không phải do một bệnh lý tiềm ẩn nào khác gây ra. Bản thân cơn đau đầu là tình trạng chính.\n*   **Đau đầu căng thẳng (Tension-type headache):** Là loại đau đầu phổ biến nhất, thường gây ra cảm giác đau âm ỉ, như bị bó chặt quanh đầu, ở trán, thái dương hoặc sau gáy. Thường liên quan đến căng thẳng, mệt mỏi, thiếu ngủ.\n*   **Đau nửa đầu (Migraine):** Thường gây đau nhói dữ dội ở một bên đầu, kèm theo các triệu chứng như buồn nôn, nôn, nhạy cảm với ánh sáng và âm thanh. Cơn đau có thể kéo dài vài giờ đến vài ngày.\n*   **Đau đầu chùm (Cluster headache):** Là loại đau đầu hiếm gặp nhưng rất dữ dội, thường xảy ra thành từng đợt (chùm) trong một khoảng thời gian. Cơn đau thường tập trung quanh một bên mắt, kèm theo chảy nước mắt, nghẹt mũi hoặc sụp mí mắt cùng bên.\n\n**2. Đau đầu thứ phát:**\nĐây là loại đau đầu là triệu chứng của một bệnh lý hoặc tình trạng sức khỏe khác.\n*   **Nhiễm trùng:** Cúm, cảm lạnh, viêm xoang, viêm màng não, viêm não.\n*   **Chấn thương đầu:** Sau va đập, tai nạn.\n*   **Vấn đề về mạch máu:** Tăng huyết áp (như thông tin tham khảo có đề cập, huyết áp cao có thể gây đau đầu, đặc biệt khi rất cao), phình động mạch não, đột quỵ.\n*   **Khối u não:** Mặc dù hiếm gặp, nhưng khối u có thể gây đau đầu kèm theo các triệu chứng thần kinh khác.\n*   **Vấn đề về mắt, tai, mũi, họng:** Viêm xoang, tăng nhãn áp, viêm tai giữa.\n*   **Mất nước:** Không uống đủ nước.\n*   **Thiếu ngủ:** Ngủ không đủ giấc hoặc chất lượng giấc ngủ kém.\n*   **Căng thẳng và lo âu:** Stress kéo dài.\n*   **Sử dụng quá mức thuốc giảm đau:** Có thể gây ra đau đầu do lạm dụng thuốc.\n*   **Thay đổi nội tiết tố:** Ở phụ nữ, đau đầu có thể liên quan đến chu kỳ kinh nguyệt, mang thai hoặc mãn kinh.\n*   **Một số loại thực phẩm và đồ uống:** Rượu, caffeine (khi cai), một số chất phụ gia thực phẩm.\n\nNếu bạn thường xuyên bị đau đầu, cơn đau dữ dội, hoặc kèm theo các triệu chứng đáng lo ngại khác như sốt cao, cứng gáy, thay đổi thị lực, yếu liệt, mất ý thức, bạn nên đi khám bác sĩ để được chẩn đoán chính xác nguyên nhân và có hướng điều trị phù hợp.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 100.0,
+      "response_time": 8.36,
+      "success": true
+    },
+    {
+      "question": "Sự khác nhau giữa bệnh tiểu đường type 1 và type 2 là gì?",
+      "ground_truth_keywords": [
+        "insulin",
+        "tự miễn",
+        "lối sống",
+        "đường huyết",
+        "tuyến tụy",
+        "tiểu đường"
+      ],
+      "response": "Chào bạn,\n\nThông tin tham khảo được cung cấp không trực tiếp đề cập đến sự khác nhau giữa bệnh tiểu đường type 1 và type 2. Do đó, tôi sẽ cung cấp thông tin dựa trên kiến thức y khoa phổ thông về hai loại bệnh này.\n\nBệnh tiểu đường (đái tháo đường) là một nhóm các bệnh chuyển hóa đặc trưng bởi lượng đường trong máu cao (tăng đường huyết) do cơ thể không sản xuất đủ insulin, hoặc không sử dụng insulin một cách hiệu quả, hoặc cả hai. Hai loại chính là tiểu đường type 1 và type 2 có những điểm khác biệt cơ bản sau:\n\n**1. Tiểu đường Type 1:**\n*   **Nguyên nhân:** Là một bệnh tự miễn, trong đó hệ thống miễn dịch của cơ thể tấn công và phá hủy các tế bào beta sản xuất insulin trong tuyến tụy. Điều này dẫn đến việc cơ thể sản xuất rất ít hoặc không sản xuất insulin.\n*   **Khởi phát:** Thường khởi phát đột ngột.\n*   **Độ tuổi:** Thường được chẩn đoán ở trẻ em, thanh thiếu niên hoặc người trẻ tuổi, nhưng cũng có thể xuất hiện ở mọi lứa tuổi.\n*   **Insulin:** Cơ thể không sản xuất insulin.\n*   **Điều trị:** Bắt buộc phải tiêm insulin hàng ngày để sống sót. Ngoài ra, cần theo dõi đường huyết, chế độ ăn uống và tập thể dục.\n*   **Yếu tố nguy cơ:** Yếu tố di truyền và môi trường được cho là đóng vai trò, nhưng không liên quan đến lối sống.\n*   **Tỷ lệ:** Chiếm khoảng 5-10% tổng số ca mắc tiểu đường.\n\n**2. Tiểu đường Type 2:**\n*   **Nguyên nhân:** Là tình trạng cơ thể trở nên đề kháng với insulin (insulin resistance) hoặc tuyến tụy không sản xuất đủ insulin để đáp ứng nhu cầu của cơ thể, hoặc cả hai.\n*   **Khởi phát:** Thường khởi phát từ từ, các triệu chứng có thể không rõ ràng trong nhiều năm.\n*   **Độ tuổi:** Thường được chẩn đoán ở người trưởng thành và người lớn tuổi, nhưng ngày càng phổ biến ở trẻ em và thanh thiếu niên do lối sống.\n*   **Insulin:** Cơ thể vẫn sản xuất insulin, nhưng không đủ hoặc không sử dụng hiệu quả.\n*   **Điều trị:** Ban đầu có thể kiểm soát bằng thay đổi lối sống (chế độ ăn uống, tập thể dục), sau đó có thể cần dùng thuốc uống hạ đường huyết. Trong một số trường hợp, người bệnh cũng cần tiêm insulin.\n*   **Yếu tố nguy cơ:** Liên quan chặt chẽ đến các yếu tố lối sống như thừa cân/béo phì, ít vận động, chế độ ăn uống không lành mạnh, tiền sử gia đình mắc bệnh tiểu đường, tuổi tác, và một số yếu tố chủng tộc/dân tộc.\n*   **Tỷ lệ:** Chiếm khoảng 90-95% tổng số ca mắc tiểu đường.\n\n**Tóm tắt sự khác biệt chính:**\n\n| Đặc điểm           | Tiểu đường Type 1                               | Tiểu đường Type 2                                     |\n| :----------------- | :--------------------------------------------- | :---------------------------------------------------- |\n| **Nguyên nhân**    | Bệnh tự miễn, phá hủy tế bào sản xuất insulin | Đề kháng insulin hoặc tuyến tụy không đủ insulin     |\n| **Sản xuất Insulin** | Rất ít hoặc không có                           | Có, nhưng không đủ hoặc không hiệu quả                |\n| **Khởi phát**      | Đột ngột                                       | Từ từ                                                 |\n| **Độ tuổi**        | Thường trẻ em, thanh thiếu niên               | Thường người lớn, nhưng ngày càng trẻ hóa             |\n| **Điều trị**       | Bắt buộc tiêm insulin                         | Thay đổi lối sống, thuốc uống, có thể tiêm insulin   |\n| **Yếu tố nguy cơ** | Di truyền, môi trường                          | Lối sống (béo phì, ít vận động), di truyền, tuổi tác |\n\nNếu bạn có bất kỳ lo ngại nào về bệnh tiểu đường hoặc các triệu chứng liên quan, hãy tham khảo ý kiến bác sĩ để được chẩn đoán và tư vấn cụ thể.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 100.0,
+      "response_time": 7.85,
+      "success": true
+    },
+    {
+      "question": "Những dấu hiệu sớm của bệnh tim là gì?",
+      "ground_truth_keywords": [
+        "đau ngực",
+        "khó thở",
+        "mệt mỏi",
+        "nhịp tim",
+        "bệnh tim"
+      ],
+      "response": "Chào bạn,\n\nThông tin tham khảo được cung cấp tập trung vào bệnh suy tim (Heart failure), một dạng bệnh tim mạch. Các triệu chứng của suy tim có thể được xem là những dấu hiệu sớm của bệnh tim, đặc biệt là khi tim bắt đầu suy yếu.\n\nDựa trên thông tin về suy tim và kiến thức y khoa phổ thông về các dấu hiệu sớm của bệnh tim nói chung, bạn có thể chú ý đến các triệu chứng sau:\n\n**Các dấu hiệu sớm thường gặp của bệnh tim (bao gồm cả suy tim):**\n\n*   **Khó thở:** Đây là một trong những triệu chứng phổ biến nhất, đặc biệt khi bạn gắng sức, leo cầu thang, hoặc thậm chí khi nằm xuống. Khó thở có thể xảy ra do tim không bơm máu hiệu quả, dẫn đến tích tụ dịch trong phổi.\n*   **Mệt mỏi và yếu sức:** Cảm thấy mệt mỏi bất thường hoặc yếu sức, ngay cả khi không hoạt động nhiều, có thể là dấu hiệu tim không cung cấp đủ máu giàu oxy cho các cơ quan.\n*   **Sưng phù:** Sưng ở chân, mắt cá chân, bàn chân hoặc bụng (phù) là do tim không thể bơm máu hiệu quả, dẫn đến tích tụ dịch trong cơ thể.\n*   **Đau ngực hoặc khó chịu ở ngực (đau thắt ngực):** Cảm giác nặng, tức, ép, hoặc đau ở ngực, có thể lan ra cánh tay (thường là tay trái), vai, cổ, hàm hoặc lưng. Cơn đau này thường xuất hiện khi gắng sức và giảm khi nghỉ ngơi.\n*   **Nhịp tim nhanh, không đều hoặc đánh trống ngực:** Cảm giác tim đập nhanh, bỏ nhịp, hoặc đập mạnh trong lồng ngực.\n*   **Ho dai dẳng hoặc thở khò khè:** Ho có thể kèm theo đờm trắng hoặc hồng, đặc biệt là vào ban đêm, do dịch tích tụ trong phổi.\n*   **Chóng mặt, choáng váng hoặc ngất xỉu:** Xảy ra khi tim không bơm đủ máu lên não.\n*   **Giảm khả năng vận động:** Khó khăn khi thực hiện các hoạt động thể chất mà trước đây bạn vẫn làm được dễ dàng.\n\nNếu bạn nhận thấy bất kỳ dấu hiệu nào trong số này, đặc biệt là nếu chúng xuất hiện đột ngột, nghiêm trọng hoặc kéo dài, bạn nên đi khám bác sĩ càng sớm càng tốt để được chẩn đoán chính xác và có kế hoạch điều trị phù hợp. Việc phát hiện sớm và điều trị kịp thời có vai trò rất quan trọng trong việc quản lý bệnh tim.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 100.0,
+      "response_time": 14.23,
+      "success": true
+    },
+    {
+      "question": "Hen suyễn được chẩn đoán và điều trị như thế nào?",
+      "ground_truth_keywords": [
+        "hen suyễn",
+        "khó thở",
+        "thuốc xịt",
+        "phổi",
+        "điều trị",
+        "chẩn đoán"
+      ],
+      "response": "Chào bạn,\n\nThông tin tham khảo được cung cấp có liên quan trực tiếp đến \"Bệnh: Hen suyễn: Nguyên nhân, triệu chứng, chẩn đoán và điều trị\". Tôi sẽ sử dụng thông tin này để trả lời câu hỏi của bạn.\n\nHen suyễn (hay còn gọi là hen phế quản) là một bệnh viêm mạn tính đường hô hấp, gây co thắt và sưng phù đường thở, dẫn đến khó thở, ho, khò khè.\n\n### Chẩn đoán hen suyễn\n\nViệc chẩn đoán hen suyễn thường dựa trên sự kết hợp của các yếu tố sau:\n\n1.  **Tiền sử bệnh và triệu chứng lâm sàng:**\n    *   Bác sĩ sẽ hỏi về các triệu chứng bạn gặp phải (khó thở, ho, khò khè, nặng ngực), tần suất, mức độ nghiêm trọng và các yếu tố kích hoạt (ví dụ: tập thể dục, dị ứng, không khí lạnh, khói thuốc).\n    *   Tiền sử gia đình mắc hen suyễn hoặc các bệnh dị ứng khác (viêm mũi dị ứng, chàm).\n2.  **Khám thực thể:**\n    *   Bác sĩ sẽ nghe phổi để tìm các âm thanh bất thường như tiếng khò khè.\n3.  **Các xét nghiệm chức năng hô hấp:**\n    *   **Phế dung kế (Spirometry):** Đây là xét nghiệm quan trọng nhất để chẩn đoán hen suyễn. Bạn sẽ được yêu cầu hít sâu và thở ra mạnh vào một thiết bị. Thiết bị này sẽ đo lượng không khí bạn có thể thở ra và tốc độ thở ra. Kết quả sẽ cho thấy có sự tắc nghẽn đường thở hay không.\n    *   **Kiểm tra khả năng hồi phục sau khi dùng thuốc giãn phế quản:** Sau khi đo phế dung, bạn sẽ được dùng một loại thuốc giãn phế quản và đo lại. Nếu chức năng phổi cải thiện đáng kể sau khi dùng thuốc, điều này củng cố chẩn đoán hen suyễn.\n    *   **Đo lưu lượng đỉnh (Peak Expiratory Flow - PEF):** Bạn có thể được hướng dẫn tự đo PEF tại nhà bằng một thiết bị cầm tay để theo dõi chức năng phổi hàng ngày và phát hiện sớm các đợt bùng phát.\n4.  **Các xét nghiệm khác (nếu cần):**\n    *   **Test dị ứng:** Để xác định các yếu tố gây dị ứng có thể là tác nhân kích hoạt hen suyễn của bạn.\n    *   **Chụp X-quang ngực:** Để loại trừ các bệnh lý phổi khác có triệu chứng tương tự.\n\n### Điều trị hen suyễn\n\nMục tiêu của điều trị hen suyễn là kiểm soát triệu chứng, ngăn ngừa các cơn hen cấp, cải thiện chức năng phổi và nâng cao chất lượng cuộc sống. Điều trị thường bao gồm:\n\n1.  **Tránh các yếu tố kích hoạt:**\n    *   Xác định và tránh xa các tác nhân gây dị ứng hoặc kích thích cơn hen như bụi nhà, phấn hoa, lông thú, khói thuốc lá, ô nhiễm không khí, hóa chất, không khí lạnh, căng thẳng.\n2.  **Sử dụng thuốc:**\n    *   **Thuốc cắt cơn (Relievers):** Là các loại thuốc giãn phế quản tác dụng nhanh (ví dụ: Salbutamol) được sử dụng khi có triệu chứng cấp tính (khó thở, ho, khò khè) để làm giãn đường thở nhanh chóng. Chúng chỉ có tác dụng giảm triệu chứng tạm thời.\n    *   **Thuốc dự phòng/kiểm soát (Controllers):** Là các loại thuốc được sử dụng hàng ngày, ngay cả khi không có triệu chứng, để kiểm soát tình trạng viêm mạn tính trong đường thở và ngăn ngừa các cơn hen. Các loại thuốc này bao gồm:\n        *   **Corticosteroid dạng hít (ICS):** Là nền tảng của điều trị dự phòng, giúp giảm viêm và sưng đường thở.\n        *   **Thuốc giãn phế quản tác dụng kéo dài (LABA):** Thường được dùng kết hợp với ICS để tăng cường hiệu quả giãn phế quản.\n        *   **Thuốc đối kháng thụ thể leukotriene (LTRA):** Giúp giảm viêm và co thắt đường thở.\n        *   **Thuốc sinh học:** Dành cho các trường hợp hen suyễn nặng, khó kiểm soát bằng các phương pháp thông thường.\n3.  **Kế hoạch hành động hen suyễn:**\n    *   Bác sĩ sẽ cùng bạn xây dựng một kế hoạch chi tiết về cách tự quản lý bệnh, bao gồm cách sử dụng thuốc, nhận biết các dấu hiệu cơn hen đang xấu đi và cách xử lý trong từng tình huống.\n4.  **Giáo dục bệnh nhân:**\n    *   Hiểu rõ về bệnh hen suyễn, cách sử dụng đúng các thiết bị hít thuốc (bình xịt định liều, bình hít bột khô), tầm quan trọng của việc tuân thủ điều trị và tái khám định kỳ.\n\nĐiều quan trọng là bạn cần được bác sĩ chuyên khoa hô hấp thăm khám, chẩn đoán chính xác và đưa ra phác đồ điều trị phù hợp với tình trạng bệnh của mình. Không tự ý dùng thuốc hoặc thay đổi liều lượng thuốc.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 83.3,
+      "response_time": 14.29,
+      "success": true
+    },
+    {
+      "question": "Tôi bị đau ngực và khó thở. Điều này có thể là bệnh gì?",
+      "ground_truth_keywords": [
+        "tim",
+        "phổi",
+        "đau ngực",
+        "khó thở",
+        "lo âu",
+        "bác sĩ",
+        "cấp cứu"
+      ],
+      "response": "Chào bạn,\n\nBạn đang gặp phải triệu chứng đau ngực và khó thở. Đây là những triệu chứng nghiêm trọng và có thể là dấu hiệu của nhiều tình trạng sức khỏe khác nhau, một số trong đó cần được cấp cứu y tế ngay lập tức.\n\nThông tin tham khảo được cung cấp đề cập đến bệnh hen suyễn (hen phế quản), trong đó có nhắc đến các triệu chứng như **khó thở** và **nặng ngực**. Hen suyễn là một bệnh viêm mạn tính đường hô hấp, khi tiếp xúc với các yếu tố kích thích, phế quản của người bệnh sẽ phản ứng dữ dội, gây co thắt và sưng phù đường thở, dẫn đến khó thở, khò khè, nặng ngực và ho. Do đó, hen suyễn có thể là một trong những nguyên nhân gây ra tình trạng khó thở và cảm giác nặng ngực của bạn.\n\nTuy nhiên, đau ngực và khó thở cũng có thể là dấu hiệu của nhiều bệnh lý nguy hiểm khác không được đề cập trong thông tin tham khảo. Dựa trên kiến thức y khoa phổ thông, các nguyên nhân tiềm ẩn có thể bao gồm:\n\n**1. Các vấn đề về tim mạch:**\n*   **Nhồi máu cơ tim (đau tim):** Đau ngực dữ dội, có thể lan lên vai, cánh tay (thường là trái), cổ, hàm, lưng, kèm theo khó thở, vã mồ hôi, buồn nôn, chóng mặt. Đây là tình trạng cấp cứu y tế.\n*   **Đau thắt ngực:** Đau hoặc tức ngực khi gắng sức, giảm khi nghỉ ngơi, do thiếu máu đến cơ tim.\n*   **Suy tim:** Khó thở khi gắng sức hoặc khi nằm, sưng phù chân, mệt mỏi, ho.\n*   **Viêm màng ngoài tim:** Đau ngực nhói, thường nặng hơn khi hít sâu hoặc nằm ngửa.\n\n**2. Các vấn đề về hô hấp:**\n*   **Hen suyễn (như thông tin tham khảo):** Khó thở, khò khè, nặng ngực, ho, đặc biệt khi tiếp xúc với yếu tố kích thích.\n*   **Bệnh phổi tắc nghẽn mạn tính (COPD):** Khó thở mạn tính, ho có đờm, đặc biệt ở người hút thuốc lá.\n*   **Viêm phổi, viêm phế quản:** Khó thở, ho, sốt, đau ngực.\n*   **Tràn khí màng phổi:** Đau ngực đột ngột, khó thở dữ dội.\n*   **Thuyên tắc phổi:** Đau ngực đột ngột, khó thở dữ dội, ho ra máu. Đây là tình trạng cấp cứu y tế.\n\n**3. Các vấn đề về tiêu hóa:**\n*   **Trào ngược dạ dày thực quản (GERD):** Cảm giác nóng rát ở ngực (ợ nóng), có thể gây đau ngực và đôi khi khó thở.\n*   **Co thắt thực quản:** Đau ngực có thể giống đau tim.\n\n**4. Các vấn đề khác:**\n*   **Căng thẳng, lo âu hoặc cơn hoảng loạn:** Có thể gây khó thở, tức ngực, tim đập nhanh.\n*   **Đau cơ xương khớp thành ngực:** Đau khi ấn vào vùng ngực hoặc khi cử động.\n\n**Vì đau ngực và khó thở là những triệu chứng có thể đe dọa tính mạng, bạn TUYỆT ĐỐI KHÔNG NÊN CHỦ QUAN.**\n\n**Khuyến cáo quan trọng:**\nBạn cần đi khám bác sĩ hoặc đến cơ sở y tế gần nhất **ngay lập tức** để được thăm khám, chẩn đoán chính xác nguyên nhân và có hướng điều trị kịp thời. Đừng trì hoãn việc tìm kiếm sự giúp đỡ y tế.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 100.0,
+      "response_time": 11.06,
+      "success": true
+    },
+    {
+      "question": "Mệt mỏi kéo dài có thể là dấu hiệu của bệnh gì?",
+      "ground_truth_keywords": [
+        "thiếu máu",
+        "tuyến giáp",
+        "trầm cảm",
+        "giấc ngủ",
+        "tiểu đường",
+        "mãn tính",
+        "mệt mỏi"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về các nguyên nhân có thể gây ra tình trạng mệt mỏi kéo dài.\n\nThông tin tham khảo được cung cấp liệt kê một số bệnh lý như đau nhức xương khớp, thoái hóa, các bệnh về tim mạch (cao huyết áp, thiếu máu cơ tim, suy tim), các bệnh đường hô hấp (giãn phế quản, hen phế quản), các bệnh đường tiêu hóa (dạ dày, viêm đại tràng mãn tính, rối loạn tiêu hóa), và các bệnh đường tiết niệu (sỏi thận, u xơ tuyến tiền liệt, đái tháo đường). Mặc dù thông tin tham khảo không trực tiếp nhấn mạnh \"mệt mỏi kéo dài\" là triệu chứng chính cho tất cả các bệnh này, nhưng một số tình trạng như **suy tim** và **đái tháo đường** (được đề cập trong thông tin tham khảo) thực sự có thể gây ra mệt mỏi kéo dài. Ngoài ra, các bệnh lý mạn tính khác cũng có thể gián tiếp dẫn đến mệt mỏi.\n\nDựa trên kiến thức y khoa phổ thông và các gợi ý từ thông tin tham khảo, mệt mỏi kéo dài có thể là dấu hiệu của nhiều tình trạng khác nhau, từ các vấn đề về lối sống đến các bệnh lý nghiêm trọng.\n\n**Các nguyên nhân phổ biến gây mệt mỏi kéo dài bao gồm:**\n\n**1. Các vấn đề về lối sống:**\n*   **Thiếu ngủ hoặc chất lượng giấc ngủ kém:** Ngủ không đủ giấc, ngưng thở khi ngủ, mất ngủ.\n*   **Căng thẳng (stress) và lo âu kéo dài:** Áp lực công việc, cuộc sống, các vấn đề tâm lý.\n*   **Chế độ ăn uống không lành mạnh:** Thiếu hụt dinh dưỡng, ăn quá nhiều đường hoặc thực phẩm chế biến sẵn.\n*   **Ít vận động:** Thiếu hoạt động thể chất có thể làm giảm năng lượng.\n*   **Lạm dụng caffeine hoặc rượu:** Có thể gây gián đoạn giấc ngủ và mệt mỏi sau đó.\n\n**2. Các bệnh lý:**\n*   **Thiếu máu:** Đặc biệt là thiếu máu do thiếu sắt, gây ra cảm giác mệt mỏi, xanh xao, khó thở.\n*   **Rối loạn tuyến giáp:**\n    *   **Suy giáp:** Tuyến giáp hoạt động kém, gây mệt mỏi, tăng cân, da khô, rụng tóc.\n    *   **Cường giáp:** Tuyến giáp hoạt động quá mức, cũng có thể gây mệt mỏi, tim đập nhanh, sụt cân.\n*   **Bệnh tiểu đường (đái tháo đường):** Mệt mỏi là một trong những triệu chứng phổ biến do cơ thể không sử dụng đường hiệu quả.\n*   **Bệnh tim mạch:**\n    *   **Suy tim (như thông tin tham khảo có đề cập):** Tim không bơm máu hiệu quả, dẫn đến mệt mỏi, khó thở, sưng phù.\n    *   **Bệnh mạch vành:** Thiếu máu cơ tim có thể gây mệt mỏi, đặc biệt khi gắng sức.\n*   **Bệnh hô hấp mạn tính:** Hen suyễn, COPD (như thông tin tham khảo có đề cập) nếu không được kiểm soát tốt có thể gây khó thở liên tục, dẫn đến mệt mỏi.\n*   **Các bệnh đường tiêu hóa mạn tính (như thông tin tham khảo có đề cập):** Viêm loét dạ dày, viêm đại tràng, bệnh Celiac, bệnh Crohn có thể gây mệt mỏi do đau, khó chịu hoặc kém hấp thu dinh dưỡng.\n*   **Nhiễm trùng mạn tính:** Viêm gan B/C, HIV, lao, hoặc các nhiễm trùng kéo dài khác.\n*   **Bệnh tự miễn:** Lupus ban đỏ hệ thống, viêm khớp dạng thấp, hội chứng Sjogren.\n*   **Ung thư:** Mệt mỏi là một triệu chứng phổ biến của nhiều loại ung thư.\n*   **Hội chứng mệt mỏi mạn tính (Chronic Fatigue Syndrome - CFS/ME):** Một tình trạng đặc trưng bởi mệt mỏi nghiêm trọng, kéo dài ít nhất 6 tháng mà không tìm được nguyên nhân rõ ràng.\n*   **Thiếu vitamin và khoáng chất:** Thiếu vitamin D, vitamin B12, magie.\n*   **Bệnh thận mạn tính:** Thận không hoạt động tốt có thể gây tích tụ độc tố và mệt mỏi.\n*   **Tác dụng phụ của thuốc:** Một số loại thuốc (ví dụ: thuốc kháng histamine, thuốc huyết áp, thuốc chống trầm cảm) có thể gây mệt mỏi.\n\nNếu bạn đang trải qua tình trạng mệt mỏi kéo dài và không rõ nguyên nhân, đặc biệt nếu kèm theo các triệu chứng khác như sụt cân không rõ nguyên nhân, sốt, đau nhức, khó thở, hoặc thay đổi thói quen sinh hoạt, bạn nên đi khám bác sĩ. Bác sĩ sẽ thăm khám, hỏi bệnh sử và có thể yêu cầu các xét nghiệm cần thiết để tìm ra \"gốc rễ\" của vấn đề và từ đó đưa ra phương pháp điều trị thích hợp.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 100.0,
+      "response_time": 17.19,
+      "success": true
+    },
+    {
+      "question": "Tại sao tôi bị chóng mặt khi đứng dậy?",
+      "ground_truth_keywords": [
+        "huyết áp",
+        "tụt huyết áp",
+        "chóng mặt",
+        "mất nước",
+        "thuốc",
+        "đứng dậy"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về nguyên nhân gây chóng mặt khi đứng dậy.\n\nThông tin tham khảo được cung cấp trong lịch sử hội thoại đề cập đến một số bệnh lý như đau nhức xương khớp, thoái hóa, các bệnh về tim mạch (cao huyết áp, thiếu máu cơ tim, suy tim), các bệnh đường hô hấp, tiêu hóa và tiết niệu. Mặc dù một số bệnh lý tim mạch có thể gián tiếp ảnh hưởng đến tuần hoàn máu, nhưng thông tin tham khảo không trực tiếp giải thích nguyên nhân cụ thể của triệu chứng \"chóng mặt khi đứng dậy\". Do đó, tôi sẽ sử dụng kiến thức y khoa phổ thông để trả lời câu hỏi của bạn.\n\nChóng mặt khi đứng dậy, còn được gọi là **hạ huyết áp tư thế (Orthostatic Hypotension)**, là một tình trạng khá phổ biến. Nó xảy ra khi huyết áp của bạn giảm đột ngột khi bạn chuyển từ tư thế ngồi hoặc nằm sang đứng. Điều này làm giảm lượng máu lên não tạm thời, gây ra cảm giác chóng mặt, choáng váng, hoặc thậm chí ngất xỉu.\n\n**Các nguyên nhân phổ biến gây chóng mặt khi đứng dậy bao gồm:**\n\n1.  **Hạ huyết áp tư thế (Orthostatic Hypotension):** Đây là nguyên nhân chính. Khi bạn đứng dậy, trọng lực kéo máu xuống chân, làm giảm lượng máu trở về tim và do đó giảm huyết áp. Cơ thể thường có cơ chế bù trừ nhanh chóng để điều chỉnh, nhưng nếu cơ chế này hoạt động không hiệu quả, huyết áp sẽ giảm và gây chóng mặt.\n2.  **Mất nước (Dehydration):** Khi cơ thể thiếu nước, thể tích máu giảm, làm cho huyết áp dễ bị giảm hơn khi thay đổi tư thế.\n3.  **Tác dụng phụ của thuốc:** Một số loại thuốc có thể gây hạ huyết áp tư thế, bao gồm:\n    *   Thuốc điều trị huyết áp cao (thuốc lợi tiểu, thuốc chẹn beta, thuốc ức chế men chuyển).\n    *   Thuốc điều trị bệnh tim.\n    *   Thuốc chống trầm cảm.\n    *   Thuốc điều trị bệnh Parkinson.\n    *   Thuốc giãn mạch.\n4.  **Các vấn đề về tim mạch:**\n    *   **Rối loạn nhịp tim:** Nhịp tim quá chậm hoặc quá nhanh có thể ảnh hưởng đến khả năng bơm máu của tim, dẫn đến giảm huyết áp khi đứng dậy.\n    *   **Suy tim:** Tim không bơm máu hiệu quả.\n    *   **Bệnh van tim:** Có thể ảnh hưởng đến lưu lượng máu.\n5.  **Thiếu máu (Anemia):** Lượng hồng cầu thấp làm giảm khả năng vận chuyển oxy đến não, có thể góp phần gây chóng mặt.\n6.  **Bệnh tiểu đường (Diabetes):** Tổn thương thần kinh do tiểu đường có thể ảnh hưởng đến các dây thần kinh kiểm soát huyết áp, gây ra hạ huyết áp tư thế.\n7.  **Rối loạn hệ thần kinh:** Một số bệnh lý thần kinh như bệnh Parkinson, bệnh đa xơ cứng, hoặc các rối loạn thần kinh tự chủ có thể làm suy yếu khả năng điều hòa huyết áp của cơ thể.\n8.  **Uống rượu:** Rượu có thể gây mất nước và ảnh hưởng đến khả năng điều hòa huyết áp.\n9.  **Nằm lâu hoặc ít vận động:** Khi bạn nằm hoặc ngồi lâu, cơ thể có thể mất đi khả năng thích nghi nhanh chóng với sự thay đổi tư thế.\n10. **Hạ đường huyết (Low blood sugar):** Mặc dù không phải là nguyên nhân trực tiếp của hạ huyết áp tư thế, hạ đường huyết cũng có thể gây chóng mặt, yếu ớt và run rẩy.\n\nNếu bạn thường xuyên bị chóng mặt khi đứng dậy, đặc biệt nếu kèm theo các triệu chứng khác như ngất xỉu, mờ mắt, yếu ớt, hoặc đau ngực, bạn nên đi khám bác sĩ để được chẩn đoán chính xác nguyên nhân và có hướng điều trị phù hợp. Bác sĩ có thể yêu cầu đo huyết áp ở các tư thế khác nhau, xét nghiệm máu hoặc các kiểm tra khác để tìm ra vấn đề.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "AI Medical Knowledge",
+      "accuracy": 83.3,
+      "response_time": 10.45,
+      "success": true
+    },
+    {
+      "question": "Thuốc điều trị huyết áp có những tác dụng phụ gì?",
+      "ground_truth_keywords": [
+        "chóng mặt",
+        "mệt",
+        "ho",
+        "tiểu nhiều",
+        "đau đầu",
+        "tác dụng phụ",
+        "thuốc"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về các tác dụng phụ của thuốc điều trị huyết áp.\n\nThông tin tham khảo được cung cấp về \"Bệnh: Tăng huyết áp nguyên phát: Nguyên nhân, triệu chứng, chẩn đoán và điều trị\" có đề cập đến phương pháp điều trị tăng huyết áp, nhưng không đi sâu vào chi tiết về các tác dụng phụ cụ thể của từng loại thuốc điều trị huyết áp. Do đó, tôi sẽ cung cấp thông tin dựa trên kiến thức y khoa phổ thông.\n\nThuốc điều trị huyết áp rất đa dạng và được chia thành nhiều nhóm khác nhau, mỗi nhóm có cơ chế hoạt động và các tác dụng phụ tiềm ẩn riêng. Điều quan trọng là tác dụng phụ có thể khác nhau ở mỗi người và không phải ai cũng gặp phải.\n\nDưới đây là một số tác dụng phụ phổ biến của các nhóm thuốc điều trị huyết áp chính:\n\n1.  **Thuốc lợi tiểu (Diuretics):**\n    *   **Tác dụng phụ phổ biến:** Tăng đi tiểu, mất cân bằng điện giải (như giảm kali, natri), chuột rút, mệt mỏi, chóng mặt khi đứng dậy.\n    *   **Ít phổ biến hơn:** Tăng đường huyết, tăng acid uric (có thể gây bệnh gout).\n\n2.  **Thuốc ức chế men chuyển (ACE inhibitors):**\n    *   **Tác dụng phụ phổ biến:** Ho khan dai dẳng (là tác dụng phụ đặc trưng), chóng mặt, mệt mỏi.\n    *   **Ít phổ biến hơn/nghiêm trọng hơn:** Tăng kali máu, phù mạch (sưng mặt, môi, lưỡi, họng – hiếm gặp nhưng cần cấp cứu y tế), suy thận cấp (ở một số bệnh nhân có bệnh nền).\n\n3.  **Thuốc chẹn thụ thể Angiotensin II (ARBs):**\n    *   **Tác dụng phụ phổ biến:** Chóng mặt, mệt mỏi.\n    *   **Ít phổ biến hơn/nghiêm trọng hơn:** Tăng kali máu. Nhóm thuốc này ít gây ho khan hơn so với thuốc ức chế men chuyển.\n\n4.  **Thuốc chẹn beta (Beta-blockers):**\n    *   **Tác dụng phụ phổ biến:** Mệt mỏi, yếu sức, nhịp tim chậm, lạnh đầu chi (tay, chân).\n    *   **Ít phổ biến hơn:** Rối loạn giấc ngủ, trầm cảm, khó thở (đặc biệt ở người có tiền sử hen suyễn hoặc COPD), rối loạn cương dương.\n\n5.  **Thuốc chẹn kênh canxi (Calcium channel blockers - CCBs):**\n    *   **Tác dụng phụ phổ biến:** Sưng phù mắt cá chân và bàn chân, đau đầu, đỏ bừng mặt, chóng mặt, táo bón (đặc biệt với verapamil).\n    *   **Ít phổ biến hơn:** Đánh trống ngực, mệt mỏi.\n\n6.  **Thuốc chẹn alpha (Alpha-blockers):**\n    *   **Tác dụng phụ phổ biến:** Hạ huyết áp tư thế (chóng mặt hoặc choáng váng khi đứng dậy đột ngột), đau đầu, tim đập nhanh.\n\n**Lưu ý quan trọng:**\n\n*   Nếu bạn đang dùng thuốc điều trị huyết áp và gặp phải bất kỳ tác dụng phụ nào gây khó chịu hoặc lo lắng, bạn **không nên tự ý ngưng thuốc hoặc thay đổi liều lượng**.\n*   Hãy thảo luận ngay với bác sĩ của bạn. Bác sĩ có thể điều chỉnh liều, thay đổi loại thuốc hoặc đưa ra lời khuyên để quản lý tác dụng phụ một cách an toàn và hiệu quả.\n*   Việc kiểm soát huyết áp là rất quan trọng để phòng ngừa các biến chứng tim mạch nghiêm trọng.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 85.7,
+      "response_time": 13.23,
+      "success": true
+    },
+    {
+      "question": "Kháng sinh thường mất bao lâu để có hiệu quả?",
+      "ground_truth_keywords": [
+        "giờ",
+        "ngày",
+        "kháng sinh",
+        "đủ liều",
+        "cải thiện",
+        "hiệu quả"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về thời gian kháng sinh thường mất để có hiệu quả.\n\nThông tin tham khảo được cung cấp trong lịch sử hội thoại về \"Bệnh: Tăng huyết áp nguyên phát: Nguyên nhân, triệu chứng, chẩn đoán và điều trị\" và \"Thuốc điều trị huyết áp\" không liên quan trực tiếp đến câu hỏi về thời gian kháng sinh có hiệu quả. Do đó, tôi sẽ cung cấp thông tin dựa trên kiến thức y khoa phổ thông.\n\nThời gian kháng sinh phát huy hiệu quả có thể khác nhau đáng kể tùy thuộc vào nhiều yếu tố, bao gồm loại nhiễm trùng, mức độ nghiêm trọng của bệnh, loại kháng sinh được sử dụng và phản ứng của cơ thể mỗi người.\n\n**Nhìn chung, bạn có thể bắt đầu cảm thấy tốt hơn trong khoảng thời gian sau:**\n\n*   **Trong vòng 24-72 giờ (1-3 ngày):** Đối với nhiều nhiễm trùng thông thường và không quá nghiêm trọng (ví dụ: nhiễm trùng đường tiết niệu nhẹ, viêm họng do vi khuẩn, một số nhiễm trùng da), bạn có thể bắt đầu nhận thấy sự cải thiện về triệu chứng trong vòng 1 đến 3 ngày sau khi bắt đầu dùng kháng sinh.\n*   **Vài ngày đến một tuần:** Đối với các nhiễm trùng nặng hơn hoặc ở những vị trí khó tiếp cận hơn, có thể mất vài ngày đến một tuần để thấy được hiệu quả rõ rệt.\n\n**Các yếu tố ảnh hưởng đến thời gian kháng sinh có hiệu quả:**\n\n1.  **Loại nhiễm trùng:**\n    *   **Vị trí nhiễm trùng:** Nhiễm trùng ở các khu vực có lưu lượng máu kém hoặc khó tiếp cận (ví dụ: xương, khớp, màng não) có thể mất nhiều thời gian hơn để điều trị.\n    *   **Mức độ nghiêm trọng:** Nhiễm trùng nặng hơn thường cần thời gian dài hơn để hồi phục.\n    *   **Loại vi khuẩn:** Một số loại vi khuẩn khó tiêu diệt hơn hoặc cần kháng sinh đặc hiệu.\n2.  **Loại kháng sinh:** Mỗi loại kháng sinh có cơ chế hoạt động và dược động học khác nhau, ảnh hưởng đến tốc độ tác dụng.\n3.  **Liều lượng và tuân thủ điều trị:** Việc dùng đúng liều và đúng giờ theo chỉ định của bác sĩ là rất quan trọng để kháng sinh đạt nồng độ hiệu quả trong cơ thể.\n4.  **Hệ miễn dịch của người bệnh:** Sức khỏe tổng thể và khả năng miễn dịch của cơ thể cũng đóng vai trò trong việc chống lại nhiễm trùng.\n5.  **Sự đề kháng kháng sinh:** Nếu vi khuẩn gây bệnh đã phát triển đề kháng với kháng sinh đang dùng, thuốc sẽ không có hiệu quả hoặc hiệu quả rất kém.\n\n**Lưu ý quan trọng:**\n\n*   **Hoàn thành đủ liệu trình:** Ngay cả khi bạn cảm thấy tốt hơn sau vài ngày, điều cực kỳ quan trọng là phải hoàn thành toàn bộ liệu trình kháng sinh theo chỉ định của bác sĩ. Việc ngừng thuốc quá sớm có thể khiến nhiễm trùng tái phát và góp phần vào sự phát triển của vi khuẩn kháng kháng sinh.\n*   **Tham khảo ý kiến bác sĩ:** Nếu các triệu chứng của bạn không cải thiện sau vài ngày dùng kháng sinh, hoặc nếu chúng trở nên tồi tệ hơn, bạn nên liên hệ lại với bác sĩ. Bác sĩ có thể cần xem xét lại chẩn đoán, thay đổi loại kháng sinh hoặc điều chỉnh phác đồ điều trị.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "AI Medical Knowledge",
+      "accuracy": 83.3,
+      "response_time": 7.6,
+      "success": true
+    },
+    {
+      "question": "Cách điều trị trào ngược dạ dày hiệu quả nhất là gì?",
+      "ground_truth_keywords": [
+        "thuốc",
+        "chế độ ăn",
+        "tránh",
+        "trào ngược",
+        "dạ dày",
+        "axit"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về cách điều trị trào ngược dạ dày hiệu quả nhất.\n\nThông tin tham khảo được cung cấp trong lịch sử hội thoại không liên quan trực tiếp đến câu hỏi về điều trị trào ngược dạ dày. Do đó, tôi sẽ cung cấp thông tin dựa trên kiến thức y khoa phổ thông.\n\nĐiều trị trào ngược dạ dày thực quản (GERD) hiệu quả nhất thường là sự kết hợp của nhiều phương pháp, bao gồm thay đổi lối sống, sử dụng thuốc và trong một số trường hợp là phẫu thuật. \"Hiệu quả nhất\" có thể khác nhau tùy thuộc vào mức độ nghiêm trọng của bệnh, nguyên nhân cụ thể và phản ứng của từng cá nhân với các phương pháp điều trị.\n\nDưới đây là các phương pháp điều trị phổ biến và hiệu quả cho trào ngược dạ dày:\n\n**1. Thay đổi lối sống và chế độ ăn uống (Thường là bước đầu tiên và rất quan trọng):**\n*   **Tránh các thực phẩm và đồ uống gây kích thích:** Hạn chế cà phê, trà, sô cô la, bạc hà, đồ ăn cay nóng, đồ chiên rán nhiều dầu mỡ, trái cây họ cam quýt, cà chua và các sản phẩm từ cà chua, rượu bia.\n*   **Ăn các bữa nhỏ và thường xuyên:** Chia thành nhiều bữa ăn nhỏ trong ngày thay vì 3 bữa lớn để tránh làm đầy dạ dày quá mức.\n*   **Không nằm ngay sau khi ăn:** Nên đợi ít nhất 2-3 giờ sau khi ăn mới nằm xuống.\n*   **Nâng cao đầu giường:** Kê cao đầu giường khoảng 15-20 cm (bằng cách đặt gạch hoặc gỗ dưới chân giường phía đầu) để trọng lực giúp giữ axit trong dạ dày. Không nên chỉ dùng gối cao vì có thể làm cong người và tăng áp lực lên bụng.\n*   **Giảm cân:** Nếu bạn thừa cân hoặc béo phì, việc giảm cân có thể giúp giảm áp lực lên cơ vòng thực quản dưới.\n*   **Bỏ thuốc lá:** Nicotine có thể làm giãn cơ vòng thực quản dưới.\n*   **Mặc quần áo rộng rãi:** Tránh mặc quần áo quá chật ở vùng bụng.\n\n**2. Thuốc điều trị:**\nCác loại thuốc giúp giảm axit dạ dày hoặc tăng cường chức năng của cơ vòng thực quản dưới:\n*   **Thuốc kháng axit (Antacids):** Giúp trung hòa axit dạ dày nhanh chóng, giảm triệu chứng ợ nóng tức thời. Tuy nhiên, tác dụng ngắn và không điều trị nguyên nhân gốc rễ.\n*   **Thuốc đối kháng thụ thể H2 (H2 blockers):** Giảm sản xuất axit dạ dày. Các thuốc phổ biến như ranitidine (đã bị thu hồi ở nhiều nơi do lo ngại về tạp chất), famotidine, cimetidine. Tác dụng chậm hơn kháng axit nhưng kéo dài hơn.\n*   **Thuốc ức chế bơm proton (PPIs):** Đây là nhóm thuốc mạnh nhất trong việc giảm sản xuất axit dạ dày và thường được coi là hiệu quả nhất để chữa lành tổn thương thực quản do axit. Các thuốc phổ biến bao gồm omeprazole, lansoprazole, esomeprazole, pantoprazole, rabeprazole. Thường được dùng trong một đợt điều trị nhất định theo chỉ định của bác sĩ.\n*   **Thuốc tăng cường vận động (Prokinetics):** Giúp tăng cường sự co bóp của dạ dày và thực quản, đẩy thức ăn xuống nhanh hơn. Ít được sử dụng rộng rãi do có thể có tác dụng phụ và thường chỉ dùng trong các trường hợp đặc biệt.\n\n**3. Phẫu thuật và các thủ thuật khác:**\nĐối với những trường hợp GERD nặng, không đáp ứng với thay đổi lối sống và thuốc, hoặc khi có biến chứng, bác sĩ có thể xem xét các lựa chọn sau:\n*   **Phẫu thuật Nissen fundoplication:** Là phẫu thuật phổ biến nhất, bác sĩ sẽ quấn một phần dạ dày quanh thực quản dưới để tăng cường cơ vòng thực quản, ngăn axit trào ngược.\n*   **Các thủ thuật nội soi:** Một số kỹ thuật mới hơn sử dụng nội soi để thắt chặt cơ vòng thực quản dưới.\n\n**Lời khuyên quan trọng:**\nĐể xác định cách điều trị hiệu quả nhất cho tình trạng của bạn, bạn nên đi khám bác sĩ chuyên khoa tiêu hóa. Bác sĩ sẽ chẩn đoán chính xác mức độ bệnh, tìm ra nguyên nhân cụ thể và đưa ra phác đồ điều trị cá nhân hóa, bao gồm cả việc kê đơn thuốc và tư vấn về thay đổi lối sống phù hợp. Việc tự ý điều trị hoặc ngưng thuốc có thể không hiệu quả và gây ra các biến chứng.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "AI Medical Knowledge",
+      "accuracy": 100.0,
+      "response_time": 12.66,
+      "success": true
+    },
+    {
+      "question": "Làm thế nào để phòng ngừa bệnh tiểu đường?",
+      "ground_truth_keywords": [
+        "tập thể dục",
+        "ăn uống",
+        "cân nặng",
+        "đường",
+        "tiểu đường",
+        "phòng ngừa"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về cách phòng ngừa bệnh tiểu đường.\n\nThông tin tham khảo được cung cấp trong lịch sử hội thoại không trực tiếp đề cập đến các biện pháp phòng ngừa bệnh tiểu đường. Các thông tin này chủ yếu liên quan đến việc tuân thủ chỉ định của bác sĩ tim mạch, khám sức khỏe định kỳ cho người có tiền sử bệnh tim mạch, bệnh hạ đường huyết và bệnh nang thận. Do đó, tôi sẽ cung cấp thông tin dựa trên kiến thức y khoa phổ thông về phòng ngừa bệnh tiểu đường.\n\nPhòng ngừa bệnh tiểu đường, đặc biệt là tiểu đường type 2 (loại phổ biến nhất), chủ yếu tập trung vào việc thay đổi lối sống lành mạnh. Đối với tiểu đường type 1, hiện chưa có biện pháp phòng ngừa hiệu quả.\n\nDưới đây là các cách hiệu quả để phòng ngừa bệnh tiểu đường type 2:\n\n**1. Duy trì cân nặng hợp lý:**\n*   Thừa cân và béo phì là yếu tố nguy cơ hàng đầu gây tiểu đường type 2. Giảm cân, dù chỉ một lượng nhỏ (5-10% trọng lượng cơ thể), có thể cải thiện đáng kể độ nhạy insulin và giảm nguy cơ mắc bệnh.\n\n**2. Chế độ ăn uống lành mạnh:**\n*   **Hạn chế đường và thực phẩm chế biến sẵn:** Tránh đồ uống có đường, bánh kẹo, thực phẩm đóng gói, đồ ăn nhanh.\n*   **Tăng cường chất xơ:** Ăn nhiều rau xanh, trái cây tươi (nguyên quả), ngũ cốc nguyên hạt (gạo lứt, yến mạch, bánh mì nguyên cám), các loại đậu. Chất xơ giúp kiểm soát đường huyết và tạo cảm giác no lâu.\n*   **Chọn chất béo lành mạnh:** Ưu tiên chất béo không bão hòa đơn và đa có trong dầu ô liu, quả bơ, các loại hạt, cá béo (cá hồi, cá thu). Hạn chế chất béo bão hòa và chất béo chuyển hóa.\n*   **Kiểm soát khẩu phần ăn:** Ăn vừa đủ, không ăn quá no.\n\n**3. Tăng cường hoạt động thể chất:**\n*   Tập thể dục thường xuyên giúp giảm cân, giảm đường huyết và tăng độ nhạy insulin.\n*   Mục tiêu là ít nhất 150 phút hoạt động thể chất cường độ vừa phải mỗi tuần (ví dụ: đi bộ nhanh, bơi lội, đạp xe) hoặc 75 phút hoạt động cường độ cao.\n*   Hạn chế thời gian ngồi một chỗ, cố gắng vận động nhẹ nhàng sau mỗi 30 phút ngồi.\n\n**4. Ngừng hút thuốc lá:**\n*   Hút thuốc lá làm tăng nguy cơ mắc tiểu đường type 2 và các biến chứng liên quan.\n\n**5. Hạn chế rượu bia:**\n*   Uống rượu bia quá mức có thể làm tăng nguy cơ mắc tiểu đường và các vấn đề sức khỏe khác.\n\n**6. Ngủ đủ giấc và quản lý căng thẳng:**\n*   Thiếu ngủ hoặc chất lượng giấc ngủ kém có thể ảnh hưởng đến hormone điều hòa đường huyết. Cố gắng ngủ đủ 7-9 tiếng mỗi đêm.\n*   Căng thẳng kéo dài cũng có thể làm tăng đường huyết. Thực hành các kỹ thuật thư giãn như thiền, yoga, hoặc các hoạt động yêu thích để giảm căng thẳng.\n\n**7. Khám sức khỏe định kỳ:**\n*   Nếu bạn có các yếu tố nguy cơ như tiền sử gia đình mắc tiểu đường, thừa cân, huyết áp cao, cholesterol cao, hoặc đã từng bị tiểu đường thai kỳ, hãy thường xuyên kiểm tra đường huyết theo lời khuyên của bác sĩ. Phát hiện sớm tiền tiểu đường có thể giúp bạn thực hiện các biện pháp can thiệp kịp thời để ngăn chặn bệnh tiến triển thành tiểu đường type 2.\n\nViệc áp dụng những thay đổi lối sống này không chỉ giúp phòng ngừa tiểu đường mà còn cải thiện sức khỏe tổng thể của bạn.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 100.0,
+      "response_time": 11.04,
+      "success": true
+    },
+    {
+      "question": "Người lớn cần tiêm những loại vắc xin nào?",
+      "ground_truth_keywords": [
+        "cúm",
+        "uốn ván",
+        "viêm phổi",
+        "viêm gan",
+        "vắc xin",
+        "tiêm phòng"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về các loại vắc xin cần tiêm cho người lớn.\n\nThông tin tham khảo được cung cấp có đề cập đến **vắc-xin Tdap** (bạch hầu, uốn ván và ho gà) là phiên bản mới nhất được khuyên dùng cho thanh thiếu niên và người lớn. Vắc-xin này giúp phòng ngừa bệnh bạch hầu, uốn ván và ho gà.\n\nTuy nhiên, thông tin tham khảo không cung cấp danh sách đầy đủ các loại vắc xin khác được khuyến nghị cho người lớn. Do đó, tôi sẽ bổ sung thông tin dựa trên kiến thức y khoa phổ thông về các loại vắc xin thường được khuyến nghị cho người lớn.\n\nViệc tiêm chủng cho người lớn là rất quan trọng để bảo vệ sức khỏe cá nhân và cộng đồng, đặc biệt là khi hệ miễn dịch có thể suy yếu theo tuổi tác hoặc do các yếu tố nguy cơ khác. Các khuyến nghị cụ thể có thể khác nhau tùy thuộc vào độ tuổi, tình trạng sức khỏe, tiền sử tiêm chủng và các yếu tố nguy cơ cá nhân.\n\nDưới đây là một số loại vắc xin phổ biến thường được khuyến nghị cho người lớn:\n\n1.  **Vắc xin Tdap (Bạch hầu - Uốn ván - Ho gà):**\n    *   Như thông tin tham khảo đã nêu, vắc xin Tdap được khuyến nghị cho thanh thiếu niên và người lớn.\n    *   Người lớn nên tiêm một liều Tdap thay thế cho liều vắc xin uốn ván và bạch hầu (Td) thông thường, đặc biệt nếu họ chưa từng tiêm Tdap trước đó.\n    *   Phụ nữ mang thai cũng được khuyến nghị tiêm Tdap trong mỗi thai kỳ để bảo vệ trẻ sơ sinh khỏi ho gà.\n    *   Sau đó, cần tiêm nhắc lại vắc xin Td (uốn ván và bạch hầu) mỗi 10 năm.\n\n2.  **Vắc xin Cúm (Influenza):**\n    *   Được khuyến nghị tiêm hàng năm cho tất cả người lớn, đặc biệt là những người có bệnh nền mạn tính, người cao tuổi, phụ nữ mang thai và nhân viên y tế.\n\n3.  **Vắc xin Sởi - Quai bị - Rubella (MMR):**\n    *   Nếu bạn sinh sau năm 1957 và chưa từng tiêm vắc xin MMR hoặc không có bằng chứng miễn dịch, bạn có thể cần tiêm một hoặc hai liều.\n\n4.  **Vắc xin Thủy đậu (Varicella):**\n    *   Nếu bạn chưa từng bị thủy đậu và chưa tiêm vắc xin, bạn nên tiêm hai liều vắc xin thủy đậu.\n\n5.  **Vắc xin Viêm gan B (Hepatitis B):**\n    *   Được khuyến nghị cho tất cả người lớn chưa tiêm chủng hoặc chưa từng bị nhiễm viêm gan B, đặc biệt là những người có nguy cơ cao (ví dụ: nhân viên y tế, người có nhiều bạn tình, người tiêm chích ma túy, người sống chung với người nhiễm viêm gan B).\n\n6.  **Vắc xin Phế cầu (Pneumococcal):**\n    *   Được khuyến nghị cho tất cả người lớn từ 65 tuổi trở lên.\n    *   Cũng được khuyến nghị cho người lớn dưới 65 tuổi có các bệnh lý mạn tính (như bệnh tim, phổi, tiểu đường, suy giảm miễn dịch) hoặc hút thuốc lá.\n\n7.  **Vắc xin Zona (Shingles - Herpes Zoster):**\n    *   Được khuyến nghị cho người lớn từ 50 tuổi trở lên để phòng ngừa bệnh zona và biến chứng đau thần kinh sau zona.\n\n8.  **Vắc xin HPV (Human Papillomavirus):**\n    *   Được khuyến nghị cho nam và nữ đến 26 tuổi nếu chưa tiêm chủng đầy đủ.\n    *   Một số người lớn từ 27 đến 45 tuổi có thể thảo luận với bác sĩ về việc tiêm vắc xin HPV nếu họ chưa tiêm chủng đầy đủ và có nguy cơ nhiễm HPV mới.\n\n9.  **Vắc xin Viêm gan A (Hepatitis A):**\n    *   Được khuyến nghị cho những người có nguy cơ cao (ví dụ: người đi du lịch đến các khu vực có dịch, người có bệnh gan mạn tính, người tiêm chích ma túy).\n\n**Lời khuyên quan trọng:**\n\nĐể biết chính xác bạn cần tiêm những loại vắc xin nào, bạn nên tham khảo ý kiến bác sĩ. Bác sĩ sẽ xem xét tiền sử tiêm chủng, tình trạng sức khỏe hiện tại, độ tuổi, lối sống và các yếu tố nguy cơ cá nhân để đưa ra lịch tiêm chủng phù hợp nhất cho bạn.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 66.7,
+      "response_time": 11.96,
+      "success": true
+    },
+    {
+      "question": "Làm thế nào để giảm nguy cơ mắc ung thư?",
+      "ground_truth_keywords": [
+        "hút thuốc",
+        "ăn uống",
+        "tập thể dục",
+        "rượu",
+        "tầm soát",
+        "ung thư",
+        "phòng ngừa"
+      ],
+      "response": "Chào bạn,\n\nBạn đang hỏi về cách giảm nguy cơ mắc ung thư.\n\nThông tin tham khảo được cung cấp có đề cập đến các biện pháp phòng ngừa cho **ung thư âm hộ** và **bệnh bạch cầu cấp (leukemia cấp)**. Tôi sẽ sử dụng các thông tin này và bổ sung thêm kiến thức y khoa phổ thông về phòng ngừa ung thư nói chung, vì ung thư là một nhóm bệnh đa dạng với nhiều yếu tố nguy cơ khác nhau.\n\n**Dựa trên thông tin tham khảo, để giảm nguy cơ mắc một số loại ung thư cụ thể:**\n\n*   **Đối với Ung thư âm hộ (liên quan đến HPV):**\n    *   **Tiêm vắc-xin HPV:** Vắc-xin HPV giúp bảo vệ chống lại các chủng vi-rút được cho là gây ra hầu hết các trường hợp ung thư âm hộ. Trẻ em và thanh niên nên xem xét tiêm vắc-xin này.\n    *   **Hạn chế số lượng bạn tình:** Nếu có nhiều bạn tình, nguy cơ phơi nhiễm với HPV càng cao.\n    *   **Sử dụng bao cao su:** Bao cao su có thể làm giảm nguy cơ nhiễm virus HPV khi quan hệ tình dục, mặc dù không thể bảo vệ hoàn toàn.\n\n*   **Đối với Bệnh bạch cầu cấp (Leukemia cấp):**\n    *   **Không hút thuốc lá:** Đây là cách tốt nhất để giảm nguy cơ mắc bệnh bạch cầu. Không bắt đầu hút thuốc lá và cũng không thử hút.\n    *   **Duy trì trọng lượng cơ thể khỏe mạnh:** Thừa cân và béo phì có thể làm tăng nguy cơ mắc bệnh bạch cầu. Chế độ dinh dưỡng hợp lý và hoạt động thể chất có thể giúp duy trì trọng lượng cơ thể khỏe mạnh.\n    *   **Tránh hoặc giảm tiếp xúc lâu dài với benzen và formaldehyd:** Đây là các hóa chất có thể làm tăng nguy cơ mắc bệnh bạch cầu. Cần chú ý đến các hướng dẫn khi dùng hóa chất gia dụng (chất tẩy, thuốc xịt côn trùng) và tuân theo các biện pháp phòng ngừa an toàn khi làm việc trong môi trường nhiều hóa chất.\n\n**Bổ sung kiến thức y khoa phổ thông về phòng ngừa ung thư nói chung:**\n\nNgoài các biện pháp trên cho từng loại ung thư cụ thể, có nhiều cách tổng quát để giảm nguy cơ mắc nhiều loại ung thư khác nhau:\n\n1.  **Duy trì lối sống lành mạnh:**\n    *   **Chế độ ăn uống cân bằng:** Ăn nhiều rau xanh, trái cây, ngũ cốc nguyên hạt. Hạn chế thịt đỏ, thịt chế biến sẵn, thực phẩm nhiều đường và chất béo không lành mạnh.\n    *   **Duy trì cân nặng hợp lý:** Thừa cân và béo phì là yếu tố nguy cơ của nhiều loại ung thư (như ung thư vú, đại trực tràng, nội mạc tử cung, thận...).\n    *   **Hoạt động thể chất thường xuyên:** Tập thể dục giúp duy trì cân nặng, cải thiện hệ miễn dịch và giảm nguy cơ ung thư.\n\n2.  **Tránh các yếu tố nguy cơ môi trường:**\n    *   **Không hút thuốc lá và tránh khói thuốc thụ động:** Hút thuốc là nguyên nhân hàng đầu gây ung thư phổi và nhiều loại ung thư khác.\n    *   **Hạn chế uống rượu bia:** Uống rượu bia quá mức làm tăng nguy cơ ung thư gan, miệng, họng, thực quản, vú và đại trực tràng.\n    *   **Bảo vệ da khỏi ánh nắng mặt trời:** Tránh tiếp xúc trực tiếp với ánh nắng mặt trời gay gắt, sử dụng kem chống nắng, đội mũ rộng vành và mặc quần áo bảo hộ để giảm nguy cơ ung thư da.\n    *   **Tránh tiếp xúc với hóa chất độc hại:** Ngoài benzen và formaldehyd, cần cẩn trọng với các hóa chất công nghiệp, amiăng và các chất gây ung thư khác.\n\n3.  **Tiêm chủng:**\n    *   **Vắc-xin HPV:** Như đã đề cập, giúp phòng ngừa ung thư cổ tử cung, ung thư âm hộ, ung thư hậu môn và một số loại ung thư vùng đầu cổ.\n    *   **Vắc-xin Viêm gan B:** Giúp phòng ngừa nhiễm virus viêm gan B, một nguyên nhân chính gây ung thư gan.\n\n4.  **Khám sàng lọc định kỳ:**\n    *   Tham gia các chương trình sàng lọc ung thư theo khuyến nghị của bác sĩ (ví dụ: sàng lọc ung thư vú bằng chụp nhũ ảnh, sàng lọc ung thư cổ tử cung bằng xét nghiệm Pap, sàng lọc ung thư đại trực tràng bằng nội soi). Phát hiện sớm có thể giúp điều trị hiệu quả hơn.\n\n5.  **Quản lý căng thẳng và ngủ đủ giấc:**\n    *   Mặc dù mối liên hệ trực tiếp chưa hoàn toàn rõ ràng, nhưng căng thẳng kéo dài và thiếu ngủ có thể ảnh hưởng đến hệ miễn dịch và sức khỏe tổng thể, gián tiếp ảnh hưởng đến nguy cơ bệnh tật.\n\nĐể có lời khuyên cụ thể và cá nhân hóa về phòng ngừa ung thư, đặc biệt nếu bạn có tiền sử gia đình hoặc các yếu tố nguy cơ khác, hãy tham khảo ý kiến bác sĩ.\n\nCác thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này.",
+      "source": "Medical Literature Database",
+      "accuracy": 85.7,
+      "response_time": 12.7,
+      "success": true
+    }
+  ]
+}
