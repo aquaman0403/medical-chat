@@ -1,5 +1,5 @@
 import secrets
-import signal
+import concurrent.futures
 from datetime import datetime
 
 from flask import Flask, request
@@ -28,13 +28,6 @@ WORKFLOW_TIMEOUT = 20
 
 class TimeoutException(Exception):
     pass
-
-
-def timeout_handler(signum, frame):
-    raise TimeoutException("Request timeout")
-
-
-signal.signal(signal.SIGALRM, timeout_handler)
 
 
 def initialize_system():
@@ -110,11 +103,12 @@ def chat():
     conversation_state["question"] = message
 
     try:
-        signal.alarm(WORKFLOW_TIMEOUT)
-
-        result = workflow_app.invoke(conversation_state)
-
-        signal.alarm(0)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(workflow_app.invoke, conversation_state)
+            try:
+                result = future.result(timeout=WORKFLOW_TIMEOUT)
+            except concurrent.futures.TimeoutError:
+                raise TimeoutException("Request timeout")
 
         response = result.get("generation", "Unable to generate response")
         source = result.get("source", "Unknown")
