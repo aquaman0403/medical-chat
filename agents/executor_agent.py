@@ -4,8 +4,12 @@ from tools.llm_client import LLMClient
 
 FALLBACK_RESPONSE = "Tôi hiểu lo lắng của bạn về triệu chứng này. Để được tư vấn y tế chính xác, vui lòng tham khảo ý kiến chuyên gia y tế có thể đánh giá đúng tình trạng của bạn. Các thông tin mà chatbot cung cấp chỉ mang tính chất tham khảo. Hãy thật cẩn thận với các thông tin này."
 
+def _format_answer_with_source(answer: str, source: str) -> str:
+    if source and source != "Unknown" and source != "System Message":
+        return f"{answer}\n\n---\n **Nguồn tham khảo:** {source}"
+    return answer
+
 def _add_to_history(state: AgentState, question: str, answer: str, source: str):
-    """Helper function to add Q&A to conversation history"""
     state["conversation_history"].append({
         'role': 'user',
         'content': question
@@ -31,7 +35,9 @@ def ExecutorAgent(state: AgentState) -> AgentState:
     # If LLM was successful earlier (from LLMAgent), use that response
     if state.get("llm_success", False) and state.get("generation"):
         answer = state["generation"]
-        _add_to_history(state, question, answer, source_info)
+        formatted_answer = _format_answer_with_source(answer, source_info)
+        state["generation"] = formatted_answer
+        _add_to_history(state, question, formatted_answer, source_info)
         print("Executor: Using LLM response from earlier")
         return state
 
@@ -49,9 +55,10 @@ def ExecutorAgent(state: AgentState) -> AgentState:
             answer = response.content.strip() if hasattr(response, 'content') else str(response).strip()
 
             if answer and len(answer) > 10:
-                state["generation"] = answer
+                formatted_answer = _format_answer_with_source(answer, source_info)
+                state["generation"] = formatted_answer
                 state["source"] = source_info
-                _add_to_history(state, question, answer, source_info)
+                _add_to_history(state, question, formatted_answer, source_info)
                 print("Executor: Generated response with RAG documents")
                 return state
             else:
